@@ -1,13 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:700|Noticia+Text:400i&display=swap");
 
-
 .tag {
     opacity: 0;
     transform: translate(0, 15vh);
     transition: all 1s;
   }
 
-  
+
 .visible {
     opacity: 1;
     transform: translate(0, 0);
@@ -16,8 +15,6 @@
 .container_3{
   text-decoration: none;
   
-
-
     z-index: 100000;
     position: relative;
     margin-left: 10%;
@@ -31,11 +28,8 @@
    
     background-color: transparent;
     perspective: 500px;
-  
- 
+   
 }
-
-
 
 
 
