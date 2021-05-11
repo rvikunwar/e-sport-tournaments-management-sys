@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:700|Noticia+Text:400i&display=swap");
+
+
+.tag {
+    opacity: 0;
+    transform: translate(0, 15vh);
+    transition: all 1s;
+  }
+
+  
+.visible {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+
+.container_3{
+  text-decoration: none;
+  
+
+
+    z-index: 100000;
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 260px;
+    background-color: black;
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+   
+    background-color: transparent;
+    perspective: 500px;
+  
+ 
+}
+
+
+
+
+
+article {
+  width: 350px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  line-height: rgba(0,0,0,0.6);
+  border-radius: 10px;
+  margin: 0.5rem;
+  transition: transform 0.2s ease-out;
+  box-shadow: 0 0 5px -2px hsla(0, 0%, 0%, 0.1);
+  text-decoration: none !important;
+}
+
+
+article div {
+  text-align: center;
+  margin: 2rem;
+}
+article div p {
+  color: hsl(250, 5%, 45%);
+  font-weight: 400;
+  font-style: italic;
+  margin: 1rem 0 3rem;
+  font-family: "Noticia Text", serif;
+  position: relative;
+  z-index: 5;
+}
+article div p:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  transform: translate(-50%, -50%);
+  z-index: -5;
+  opacity: 0.05;
+  background-position: 20% 20%, 80% 80%;
+  background-repeat: no-repeat;
+}
+article div h1 {
+  color: hsl(260, 5%, 55%);
+  font-family: "Lato", sans-serif;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+}
+
+
+.title{
+  margin-top: 40px;
+  font-size: 20px;
+  text-decoration: none;
+
+}
+
+.date{
+  font-size: 19px;
+  
+}
+
+.registration{
+  font-size: 17px;
+}
+
+
+
+    
+@media only screen and (max-width:500px){
+
+
+
+  .container_3{
+    text-decoration: none;
+    
+   
+      z-index: 100000;
+      position: relative;
+      margin-left: 10%;
+      margin-right: 10%;
+      margin-bottom: 60px;
+      background-color: black;
+      display: flex;
+    
+      justify-content: center;
+      align-items: center;
+     
+      background-color: transparent;
+      perspective: 500px;
+      box-sizing: border-box;
+    
+  }
+
+  .date{
+    font-size: 15px;
+  margin-top: -130px;
+    
+  }
+  
+  .registration{
+    font-size: 17px;
+  }
+  
+
+
+}

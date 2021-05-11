@@ -1,0 +1,34 @@
+.card{
+    border:2px solid green;
+    border-radius: 12px;
+    box-shadow: 6px 8px 10px rgba(68, 68, 68, 0.6);
+    width:200px;
+    height:330px;
+    margin: 2px 34px 2px 34px;
+    margin-top: 20vh;
+}
+
+
+.card:hover{
+    border:none;
+    box-shadow:none;
+    border-radius: 12px;
+    width:200px;
+    height:auto;
+    margin: 2px 34px 2px 34px;
+ 
+}
+
+
+.artwork_1{
+    width:200px;
+    height:300px;
+    margin-top: 15px;
+}
+
+.artwork_1:hover{
+    width:350px;
+    height:450px;
+    margin-left: -70px;
+    position: relative;
+}
