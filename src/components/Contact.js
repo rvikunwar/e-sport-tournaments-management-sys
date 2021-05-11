@@ -1,10 +1,6 @@
 import React from 'react'
 import "./css/contact.css"
 import axios from '../axios.js'
-import {
-
- Redirect
-} from "react-router-dom";
 
 function Contact() {
 

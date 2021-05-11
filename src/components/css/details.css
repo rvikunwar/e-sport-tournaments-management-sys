@@ -205,21 +205,22 @@ color:white;
         background-color: rgba(0,0,0,0.5);
         display: flex;
         flex-direction: column;
-        margin-top: 30vh;
+        margin-top: 39vh;
     }
     
     .part_1{
         display: flex;
         flex-direction: row;
-        margin-top: 60px;
+        margin-top: 40px;
     }
     
     .left_1{
-        width:35%;
+        width:30%;
         box-sizing: border-box;
-        padding-left: 10%;
+        padding-left: 6%;
         font-size: 18px;
         font-weight: 700;
+        margin-right: 5%;
       
     }
     
@@ -227,7 +228,7 @@ color:white;
         width:60%;
        align-self: center;
        box-sizing: border-box;
-       font-size: 17px;
+       font-size: 16px;
     
        padding-right: 5%;
         color:rgba(255,255,255,0.7);
@@ -239,7 +240,7 @@ color:white;
         font-size: 30px;
        z-index: 100000;
         text-align:center;
-        height: 60vh;
+        height: 50vh;
     }
     .tag_1 {
         opacity: 0;
@@ -278,7 +279,7 @@ color:white;
     }
     
     .regi{
-        font-size: 40px;
+        font-size: 25px;
         font-weight: 800;
      
     position: relative;

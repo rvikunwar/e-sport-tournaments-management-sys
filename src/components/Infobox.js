@@ -6,7 +6,7 @@ function Infobox(props) {
 
     return (
      
-        <div class="container_3 sc tag" onClick={()=>{
+        <div className="container_3 sc tag" onClick={()=>{
             props.i(!props.p)
         }}>
   

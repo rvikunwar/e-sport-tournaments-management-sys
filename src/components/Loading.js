@@ -4,8 +4,8 @@ function Loading() {
     return (
         <div>
 
-<div class="content_1">
-   <div class="loading">
+<div className="content_1">
+   <div className="loading">
 <p>LOADING</p>
       <span></span>
    </div>

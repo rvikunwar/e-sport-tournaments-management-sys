@@ -134,9 +134,16 @@ article div h1 {
     
   }
 
+  .title{
+    margin-top: 6px;
+    font-size: 20px;
+    text-decoration: none;
+  
+  }
+
   .date{
     font-size: 15px;
-  margin-top: -130px;
+  margin-top: -120px;
     
   }
   

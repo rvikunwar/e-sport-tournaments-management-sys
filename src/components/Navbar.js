@@ -6,7 +6,6 @@ import InstagramIcon from '@material-ui/icons/Instagram';
 
 import FacebookIcon from '@material-ui/icons/Facebook';
 import MailIcon from '@material-ui/icons/Mail';
-import TwitterIcon from '@material-ui/icons/Twitter';
 import {
     Link
   } from "react-router-dom";
@@ -68,7 +67,7 @@ export default function Navbar(props) {
                                     <p className="sp"> FACEBOOK</p>
                                  </div>
                                 <div className="bo">
-                                    <img src={dis} style={{"width":"20px","height":"20px","marginTop":"19px"}}/>
+                                    <img src={dis} alt="" style={{"width":"20px","height":"20px","marginTop":"19px"}}/>
                                     <p className="sp"> DISCORD</p>
                                 </div>
                     </div>
@@ -86,7 +85,7 @@ export default function Navbar(props) {
                     </div>
                     <div className="mai">
                     <MailIcon/>
-                    <p class="gmail">INTERACTIVE07@GMAIL.COM</p>
+                    <p className="gmail">INTERACTIVE07@GMAIL.COM</p>
                     </div>
                
          </div>

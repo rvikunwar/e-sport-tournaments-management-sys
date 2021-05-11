@@ -7,7 +7,7 @@ function Background() {
 
     return (
         <div className="background_2" >
-            
+            <Particles height="100vh" width="100vw" config={particleconfig}/>
         </div>
     )
 }

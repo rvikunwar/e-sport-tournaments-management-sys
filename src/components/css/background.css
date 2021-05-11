@@ -6,3 +6,20 @@
     left:0px;
 }
 
+
+
+
+@media only screen and (max-width:500px){
+
+    .background_2{
+      
+        position: fixed;
+        width: 100%;
+        z-index: 10000;
+        top:0px;
+        left:0px;
+    }
+    
+    
+
+}
