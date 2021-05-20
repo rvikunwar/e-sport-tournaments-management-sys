@@ -67,7 +67,7 @@ export default function Navbar(props) {
                                     <p className="sp"> FACEBOOK</p>
                                  </div>
                                 <div className="bo">
-                                    <img src={dis} alt="" style={{"width":"20px","height":"20px","marginTop":"19px"}}/>
+                                    <img src={dis} alt="" style={{"width":"20px","height":"20px","marginTop":"19px","marginLeft":"2px","marginRight":"2px"}}/>
                                     <p className="sp"> DISCORD</p>
                                 </div>
                     </div>
@@ -76,7 +76,7 @@ export default function Navbar(props) {
                     <Link to="/" style={{ "textDecoration":"none"}}>
                         <p className="hom">HOME</p>
                     </Link>
-                    <a href="#contact" className="con">CONTACT US</a>
+                    <a href="#contact" className="coon">CONTACT US</a>
                     <Link to="/"  style={{ "textDecoration":"none"}}>
                         <p className="ab">ABOUT US</p>
                     </Link>

@@ -135,7 +135,7 @@
 }
 
 
-.con{
+.coon{
     font-size: 43px;
     font-weight: 900;
     margin-bottom: 25px;
@@ -338,12 +338,14 @@ padding-top:15px;
 }
 
 .sp{
-    margin-left: 10px;
+    margin-left: 3px;
+    font-size: 12px;
+    margin-top: 20px;
 }
 
 
-.con{
-    font-size: 22px;
+.coon{
+    font-size: 21px;
     font-weight: 900;
     margin-bottom: 25px;
     margin-top: 0px;
