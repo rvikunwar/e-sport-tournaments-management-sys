@@ -129,6 +129,9 @@
 
 .sp{
     margin-left: 10px;
+    text-decoration: none;
+    color:white;
+    margin-top: 16px;
 }
 
 
@@ -161,7 +164,7 @@
     font-size: 20px;
     margin-top:10px;
     font-weight: 600;
-  
+    text-transform: uppercase;
     margin-top: -4px;
     margin-left: 10px;
 }

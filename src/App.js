@@ -4,6 +4,8 @@ import Navbar from './components/Navbar.js'
 import Header from './components/Header.js'
 import Info from './components/Info.js'
 import logo from './components/images/afat.png'
+import phone from './components/images/phone.png'
+
 import Contact from './components/Contact.js'
 import Loading from "./components/Loading.js"
 import Background from './components/Background.js'
@@ -40,7 +42,12 @@ useEffect(()=>{
                 <Loading/>:
                 <div className="aapp" id="app">
           <Background/>
-                <img src={logo} alt="" className="background-image"/>
+          {((window.innerWidth)<500)?
+           <img src={phone} alt="" className="background-image"/>:
+           <img src={logo} alt="" className="background-image"/>
+
+          }
+               
                 <Navbar/>
                 <Header/>
             

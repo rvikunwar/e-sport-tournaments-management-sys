@@ -60,7 +60,7 @@ export default function Navbar(props) {
                         <p className="men">Social</p>
                               <div className="bo">
                                     <p><InstagramIcon/></p> 
-                                    <p className="sp">INSTAGRAM</p>
+                                    <a href="https://www.instagram.com/kingsgambit.gg/" target="insta" className="sp">INSTAGRAM</a>
                                 </div> 
                                 <div className="bo">
                                     <p><FacebookIcon/></p>
@@ -85,7 +85,7 @@ export default function Navbar(props) {
                     </div>
                     <div className="mai">
                     <MailIcon/>
-                    <p className="gmail">INTERACTIVE07@GMAIL.COM</p>
+                    <p className="gmail">kingsgambit.gg.in@gmail.com</p>
                     </div>
                
          </div>

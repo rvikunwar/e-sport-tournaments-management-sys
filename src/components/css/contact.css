@@ -117,6 +117,7 @@ textarea::-webkit-scrollbar{
     margin-bottom: 0px;
     font-size: 14px;
     color: #888;
+    text-transform: uppercase;
   
   }
 
@@ -279,6 +280,7 @@ textarea::-webkit-scrollbar{
     .conn{
       margin-top: 20px;
      height: 100px;
+     font-size: 14px;
      
     
   }

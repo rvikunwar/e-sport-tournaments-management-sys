@@ -64,7 +64,7 @@
 
    
         font-family: 'Oswald', sans-serif;
-        font-size: 45px;
+        font-size: 75px;
         
         letter-spacing: 3px;
         font-weight: 300;
@@ -96,5 +96,27 @@
         
         } 
         }
+
+}
+
+
+    
+@media only screen and (max-width:370px){
+  
+    .main_2{
+
+   
+        font-family: 'Oswald', sans-serif;
+        font-size: 45px;
+        
+        letter-spacing: 3px;
+        font-weight: 300;
+        color: white;
+       display: inline-block;
+        z-index: 100000;
+        position: relative;
+        margin-top: 10px;       
+        animation: identifier 1s;
+    }
 
 }

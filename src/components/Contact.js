@@ -47,7 +47,7 @@ function Contact() {
           </div>
           <div className="conn">
               <div className="app-contact">CONTACT INFO : +91 956 782 22 11</div>
-              <div className="app-contact">CONTACT EMAIL INFO : INTERACTIVE07@GMAIL.COM</div>
+              <div className="app-contact">CONTACT EMAIL INFO : kingsgambit.gg.in@gmail.com</div>
               <div><a href="#app" className="pu">BACK TO TOP</a></div>
           </div>
         </div>
