@@ -3,8 +3,8 @@ import React, {useState,useEffect} from 'react'
 import Navbar from './components/Navbar.js'
 import Header from './components/Header.js'
 import Info from './components/Info.js'
-import logo from './components/images/afat.png'
-import phone from './components/images/phone.png'
+import logo from './components/images/backg.jpg'
+import phone from './components/images/bb.jpg'
 
 import Contact from './components/Contact.js'
 import Loading from "./components/Loading.js"
@@ -16,7 +16,6 @@ import {
 } from "react-router-dom";
 import Details from "./components/Details.js"
 function App() {
-
 const [loading,setloading]=useState(false)
 const [change,setchange]=useState(false)
 useEffect(()=>{
@@ -27,10 +26,11 @@ useEffect(()=>{
   }, 2740);
 
 },[change])
+
+
   
 
  
-
   return (
   
     <div className="App" id="app">
@@ -47,7 +47,7 @@ useEffect(()=>{
            <img src={logo} alt="" className="background-image"/>
 
           }
-               
+              
                 <Navbar/>
                 <Header/>
             

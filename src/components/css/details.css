@@ -17,14 +17,14 @@
    cursor: pointer;
     text-align: center;
     display: inline-block;
-   animation: identifier_1 1s;
+   animation: identifier_1 1.5s;
     color:white;
     font-size: 30px;
 }
 @keyframes identifier_1 {
     from {
          opacity: 0;
-         transform: translateY(15vh);
+         transform: translateY(20vh);
     }   to{
         opacity: 1;
         transform: translateY(0vh);

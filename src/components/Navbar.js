@@ -3,7 +3,7 @@ import './css/Navbar.css'
 import SubjectIcon from '@material-ui/icons/Subject';
 import ClearIcon from '@material-ui/icons/Clear';
 import InstagramIcon from '@material-ui/icons/Instagram';
-
+import logo from './images/logo.png'
 import FacebookIcon from '@material-ui/icons/Facebook';
 import MailIcon from '@material-ui/icons/Mail';
 import {
@@ -19,11 +19,10 @@ export default function Navbar(props) {
                
                 <div className="navbar "  id="na">
                     <Link to="/">
-                        <p className="logo" >
-            LOGO</p>
+                        <img src={logo} style={{color:"white"}} className="logo" alt="logo"/>
                     </Link>
             
-                 <ul >
+                 <ul className="yll" >
                     <li className="list_11"><a  className="aaa" href="#contact">Contact us</a></li>
                     <li className="list_11 aaaa" onClick={()=>{
                      
