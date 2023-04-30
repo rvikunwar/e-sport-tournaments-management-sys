@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import './css/info.css'
 import {
 
-  Link
+    Link
 } from "react-router-dom";
 import Infobox from './Infobox.js'
 // import axios from '../axios.js'
@@ -61,10 +61,14 @@ function Info(props) {
 
 
     //calling for data
-    const getData = async () => {
-        let data  = await getTournaments()
-        setdata_1(data??[])
-    }
+    const getData = useCallback(
+        async () => {
+            let data = await getTournaments()
+            setdata_1(data ?? [])
+        },
+        [setdata_1],
+    )
+
     useEffect(() => {
         // axios.get("").then((res) => {
         //   setdata_1(res.data)
@@ -76,9 +80,9 @@ function Info(props) {
         <div className="info" id="ms">
             {
                 data_1.map((dat, c) => (
-                    <Link 
-                        to={`/details/${dat.id}`} 
-                        key={c} 
+                    <Link
+                        to={`/details/${dat.id}`}
+                        key={c}
                         style={{ textDecoration: 'none', width: '500px' }}>
                         <Infobox i={props.in} p={props.pp} data_3={dat} />
                     </Link>

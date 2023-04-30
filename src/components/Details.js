@@ -25,10 +25,13 @@ function Details() {
         "open_closed": "", 
         "link": "" })
 
-    const getData = async () => {
-        let data = await getTournamentDetails({ id: page })
-        setdata(data??{})
-    }
+    const getData = useCallback(
+        async () => {
+            let data = await getTournamentDetails({ id: page })
+            setdata(data??{})
+        },
+        [setdata],
+    )
 
     useEffect(() => {
         getData()
