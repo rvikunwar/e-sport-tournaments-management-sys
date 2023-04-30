@@ -59,7 +59,7 @@ function Info(props) {
         }
     }, [data_1])
 
-    
+
     //calling for data
     const getData = async () => {
         let data  = await getTournaments()
@@ -70,7 +70,7 @@ function Info(props) {
         //   setdata_1(res.data)
         // })
         getData()
-    }, [])
+    }, [getData])
 
     return (
         <div className="info" id="ms">

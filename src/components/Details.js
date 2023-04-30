@@ -29,13 +29,13 @@ function Details() {
         let data = await getTournamentDetails({ id: page })
         setdata(data??{})
     }
-    
+
     useEffect(() => {
         getData()
         // axios.get(`${parseInt(page)}`).then((res) => {
         //     setdata(res.data)
         // })
-    }, [page])
+    }, [page, getData])
     const [linked, setLinked] = useState(false)
 
     useEffect(() => {
@@ -84,40 +84,40 @@ function Details() {
 
             </div>
             <div className="mid">
-                <div className="part_1 tag_1">
+                { data.date_time && <div className="part_1 tag_1">
                     <p className="left_1"> Date & Time</p>
                     <p className="right_1">{data.date_time}</p>
-                </div>
+                </div> }
 
-                <div className="part_1  tag_1">
+                { data.description && <div className="part_1  tag_1">
                     <p className="left_1"> Description</p>
                     <p className="right_1">{data.description}</p>
-                </div>
+                </div> }
 
-                <div className="part_1  tag_1">
+                { data.timeline && <div className="part_1  tag_1">
                     <p className="left_1"> Timeline</p>
                     <p className="right_1">{data.timeline}</p>
-                </div>
+                </div> }
 
-                <div className="part_1  tag_1">
+                { data.submission && <div className="part_1  tag_1">
                     <p className="left_1">Submission</p>
                     <p className="right_1">{data.submission}</p>
-                </div>
+                </div> }
 
-                <div className="part_1  tag_1">
+                { data.rules && <div className="part_1  tag_1">
                     <p className="left_1">Rules</p>
                     <p className="right_1">{data.rules}</p>
-                </div>
+                </div>}
 
-                <div className="part_1  tag_1">
+                { data.registration && <div className="part_1  tag_1">
                     <p className="left_1">Registration</p>
                     <p className="right_1">{data.registration}</p>
-                </div>
+                </div> }
 
-                <div className="part_1  tag_1">
+                { data.contact && <div className="part_1  tag_1">
                     <p className="left_1">Contact</p>
                     <p className="right_1">{data.contact}</p>
-                </div>
+                </div>}
             </div>
 
             <div className="last tag_1">
