@@ -1,7 +1,6 @@
 import React, { useEffect, useState, useCallback } from 'react'
 import './css/info.css'
 import {
-
     Link
 } from "react-router-dom";
 import Infobox from './Infobox.js'

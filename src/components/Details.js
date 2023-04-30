@@ -30,7 +30,7 @@ function Details() {
             let data = await getTournamentDetails({ id: page })
             setdata(data??{})
         },
-        [setdata],
+        [setdata, page],
     )
 
     useEffect(() => {
