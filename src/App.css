@@ -1,6 +1,5 @@
 .App {
   width:100%;
- 
 }
 
 .background-image{
@@ -10,14 +9,11 @@
   top:0px;
   left:0px;
   box-sizing: border-box;
-  
-
 }
 
 .aapp{
   width:100%;
 }
-
 
 
 @media screen and (max-width: 370px) {
@@ -29,7 +25,5 @@
     top:0px;
     left:0px;
     box-sizing: border-box;
-    
-  
   }
 }
