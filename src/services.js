@@ -3,12 +3,7 @@ import {
     getDocs,
     doc,
     getDoc,
-    updateDoc,
     query,
-    limit,
-    arrayUnion,
-    where,
-    arrayRemove,
 } from "firebase/firestore";
 import { firestore } from './firebase';
 

@@ -5,7 +5,7 @@ import {
   Link
 } from "react-router-dom";
 import Infobox from './Infobox.js'
-import axios from '../axios.js'
+// import axios from '../axios.js'
 import { getTournaments } from '../services';
 
 

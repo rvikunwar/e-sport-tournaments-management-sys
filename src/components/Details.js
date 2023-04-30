@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import "./css/details.css"
-import axios from '../axios.js'
+// import axios from '../axios.js'
 
 import {
     useParams,
