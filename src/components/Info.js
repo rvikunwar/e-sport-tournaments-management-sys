@@ -59,13 +59,17 @@ function Info(props) {
         }
     }, [data_1])
 
+    
     //calling for data
+    const getData = async () => {
+        let data  = await getTournaments()
+        setdata_1(data??[])
+    }
     useEffect(() => {
         // axios.get("").then((res) => {
         //   setdata_1(res.data)
         // })
-        let data  = getTournaments()
-        setdata_1(data)
+        getData()
     }, [])
 
     return (

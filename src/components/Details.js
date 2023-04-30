@@ -25,9 +25,13 @@ function Details() {
         "open_closed": "", 
         "link": "" })
 
+    const getData = async () => {
+        let data = await getTournamentDetails({ id: page })
+        setdata(data??{})
+    }
+    
     useEffect(() => {
-        let data = getTournamentDetails({ id: page })
-        setdata(data)
+        getData()
         // axios.get(`${parseInt(page)}`).then((res) => {
         //     setdata(res.data)
         // })
